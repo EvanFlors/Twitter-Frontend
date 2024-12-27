@@ -6,10 +6,17 @@ export default {
 	theme: {
 		extend: {},
 	},
+  variants: {
+    extend: {
+      backgroundColor: ['dark'],
+      textColor: ['dark'],
+      borderColor: ['dark'],
+    },
+  },
 	plugins: [daisyui],
 	daisyui: {
 		themes: [
-			"dark",
+			"light",
 			{
 				black: {
 					...daisyUIThemes["black"],
